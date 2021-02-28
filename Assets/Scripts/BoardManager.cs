@@ -45,7 +45,7 @@ public class BoardManager : MonoBehaviour
         gridPositions.Clear();
 
         //Loop through x axis (columns).
-        for (int x = 1; x < column - 1; x++)
+        for (int x = 1; x < columns - 1; x++)
         {
             //Within each column, loop through y axis (rows).
             for (int y = 1; y < rows - 1; y++)
