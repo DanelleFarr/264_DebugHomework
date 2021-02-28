@@ -54,7 +54,7 @@ public class Player : MovingObject
         //If it's not the player's turn, exit the function.
         if (!GameManager.instance.playersTurn) return;
 
-        float horizontal = 0;   //Used to store the horizontal move direction.
+        int horizontal = 0;   //Used to store the horizontal move direction.
         int vertical = 0;       //Used to store the vertical move direction.
 
         //Get input from the input manager, round it to an integer and store in horizontal to set x axis move direction
